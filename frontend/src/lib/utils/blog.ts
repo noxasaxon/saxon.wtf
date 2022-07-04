@@ -24,11 +24,10 @@ const imported_posts = import.meta.globEager('$lib/blog_posts/*.md');
 // is automatically recovered from the Frontmatter, and we're also
 // asking it to render the blog post so we're able to use it
 // as a component later on.
-const blog_posts: BlogPostWithHTML[] = Object.entries(imported_posts).map(([key, value]) => {
-	console.debug(value);
+const blog_posts: BlogPostWithHTML[] = Object.values(imported_posts).map((mdsvex_file) => {
 	return {
-		...value.metadata,
-		render: value.default
+		...mdsvex_file.metadata,
+		render: mdsvex_file.default
 	};
 });
 

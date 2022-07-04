@@ -1,5 +1,5 @@
 <script context="module" lang="ts">
-	import { posts_sorted_by_date_created, type BlogPostWithHTML } from '$lib/utils/blog_posts';
+	import { posts_sorted_by_date_created, type BlogPostWithHTML } from '$lib/utils/blog';
 
 	export function load({ params }: LoadEvent) {
 		const { slug } = params;
