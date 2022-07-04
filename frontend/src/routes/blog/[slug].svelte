@@ -16,11 +16,11 @@
 </script>
 
 <script lang="ts">
-	import { page } from '$app/stores';
 	import type { LoadEvent } from '@sveltejs/kit';
 
 	export let found_post: BlogPostWithHTML;
 </script>
 
 <svelte:component this={found_post.render} />
-{$page.params.slug}
+
+<!-- {$page.params.slug} -->
