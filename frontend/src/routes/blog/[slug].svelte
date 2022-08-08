@@ -21,6 +21,8 @@
 	export let found_post: BlogPostWithHTML;
 </script>
 
+<title>wtf is {found_post.title}?</title>
+
 <svelte:component this={found_post.render} />
 
 <!-- {$page.params.slug} -->

@@ -21,16 +21,17 @@
 				<div class="flex items-center px-2 lg:px-0">
 					<div class="flex-shrink-0">
 						<a href="/">
-							<img
+							<!-- <img
 								class="block lg:hidden h-8 w-auto"
 								src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
-								alt="Workflow"
+								alt="Saxon.wtf"
 							/>
 							<img
 								class="hidden lg:block h-8 w-auto"
 								src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg"
-								alt="Workflow"
-							/>
+								alt="Saxon.wtf"
+							/> -->
+							<h1>saxon.wtf</h1>
 						</a>
 					</div>
 
@@ -54,6 +55,7 @@
 						</div>
 					</div>
 				</div>
+
 				<div class="flex-1 flex justify-center px-2 lg:ml-6 lg:justify-end">
 					<div class="max-w-lg w-full lg:max-w-xs">
 						<label for="search" class="sr-only"> Search </label>
@@ -71,6 +73,7 @@
 						</div>
 					</div>
 				</div>
+
 				<div class="flex lg:hidden">
 					<!-- mobile menu button -->
 
@@ -85,7 +88,7 @@
 						{/if}
 					</DisclosureButton>
 				</div>
-				<div class="hidden lg:block lg:ml-4">
+				<!-- <div class="hidden lg:block lg:ml-4">
 					<div class="flex items-center">
 						<button
 							type="button"
@@ -95,10 +98,11 @@
 							<BellIcon class="h-6 w-6" aria-hidden="true" />
 						</button>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 
+		<!-- mobile menu panel -->
 		<DisclosurePanel class="lg:hidden">
 			<div class="px-2 pt-2 pb-3 space-y-1">
 				<DisclosureButton
